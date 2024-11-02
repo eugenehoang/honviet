@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HỒN VIỆT - Website Lịch sử và Văn hóa Việt Nam</title>
+    <style>
+        /* Cấu hình màu sắc */
+        :root {
+            --dark-green: #13341E;
+            --fern-green: #4E7145;
+            --gamboge: #EB9C35;
+            --sinopia: #C4501B;
+            --sienna: #8A2B13;
+            --light-text: #F8F5E9;
+            --dark-text: #2B2C28;
+        }
+
+        /* Thiết lập cơ bản */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--dark-green);
+            color: var(--light-text);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        header {
+            background-image: url('logo.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            padding: 60px;
+            text-align: center;
+            color: var(--light-text);
+        }
+
+        header h1 {
+            font-family: "Times New Roman", serif;
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-style: italic;
+            color: var(--sinopia);
+            margin-top: 10px;
+        }
+
+        /* Thanh điều hướng */
+        nav {
+            background-color: var(--fern-green);
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: var(--light-text);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            margin: 0 10px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: var(--gamboge);
+            color: var(--dark-text);
+            border-radius: 5px;
+        }
+
+        /* Nội dung chính */
+        .content {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            background-color: var(--sienna);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+
+        .section h2 {
+            font-family: "Times New Roman", serif;
+            font-size: 2em;
+            color: var(--light-text);
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            line-height: 1.6;
+        }
+
+        /* Hình ảnh nền cho từng phần */
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-size: cover;
+            background-position: center;
+            opacity: 0.3;
+            z-index: -1;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--fern-green);
+            color: var(--light-text);
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>HỒN VIỆT</h1>
+        <p>"DÂN TA PHẢI BIẾT SỬ TA" - Chủ tịch Hồ Chí Minh</p>
+    </header>
+
+    <!-- Thanh điều hướng -->
+    <nav>
+        <a href="#home">Trang chủ</a>
+        <a href="#hongbang">Thời kỳ Hồng Bàng</a>
+        <a href="#bacthuoc">Thời kỳ Bắc thuộc</a>
+        <a href="#daiviet">Thời kỳ Đại Việt</a>
+        <a href="#phapthuoc">Thời kỳ Pháp thuộc</a>
+        <a href="#hiendai">Thời kỳ hiện đại</a>
+        <a href="#vanchan">Văn hóa dân gian</a>
+        <a href="#amthuc">Ẩm thực truyền thống</a>
+    </nav>
+
+    <!-- Nội dung chính -->
+
+    <!-- Trang chủ -->
+    <div class="content">
+        <section id="home" class="section">
+            <div class="background-image" style="background-image: url('kylan.png');"></div>
+            <h2>Giới thiệu tổng quan</h2>
+            <p>Dự án xây dựng một website lịch sử và văn hóa Việt Nam là một phần trong sứ mệnh giáo dục cộng đồng về cội nguồn và giá trị của dân tộc. Xuất phát từ lời dạy của Chủ tịch Hồ Chí Minh: "Dân ta phải biết sử ta/Cho tường gốc tích nước nhà Việt Nam," dự án mong muốn giúp người Việt trẻ và cộng đồng dễ dàng tiếp cận các kiến thức lịch sử và văn hóa quan trọng. Trong thời đại hiện nay, khi nhiều người trẻ có xu hướng xa rời cội nguồn, "Hồn Việt" hy vọng sẽ là cầu nối giúp họ kết nối lại với truyền thống và bản sắc dân tộc.</p>
+            <p>Dự án "Hồn Việt" không chỉ là một kho tài liệu trực tuyến mà còn là một công cụ tương tác và khám phá di sản văn hóa, lịch sử của Việt Nam. Website cung cấp thông tin về các thời kỳ lịch sử lớn của Việt Nam như Thời kỳ Hồng Bàng, Bắc thuộc, Đại Việt, Pháp thuộc, và thời kỳ hiện đại. Ngoài ra, website còn có các chuyên mục về văn hóa dân gian và ẩm thực truyền thống. Mỗi chuyên mục được xây dựng với nội dung chi tiết, hình ảnh minh họa sinh động, giúp người dùng không chỉ nắm bắt thông tin mà còn trải nghiệm văn hóa.</p>
+            <p>Website "Hồn Việt" được phát triển dành cho mọi tầng lớp nhân dân, từ học sinh, sinh viên, giáo viên đến những người yêu thích lịch sử, và cả những nhà nghiên cứu. Với thiết kế thân thiện và dễ sử dụng, website tạo ra một không gian mở, cung cấp kiến thức toàn diện về lịch sử Việt Nam và các yếu tố văn hóa liên quan, đặc biệt thu hút giới trẻ – những người ít có điều kiện tiếp cận tài liệu lịch sử truyền thống.</p>
+            <p>"Hồn Việt" sử dụng các bài viết rõ ràng, dễ hiểu và bổ sung bằng hình ảnh minh họa, video, infographic để hỗ trợ người dùng nắm bắt nội dung. Các hình ảnh mang tính biểu tượng như kỳ lân, rồng, phụng, bánh chưng, bánh dày giúp tăng tính hấp dẫn và khơi dậy tình yêu văn hóa dân tộc.</p>
+            <p>Dự án "Hồn Việt" mong muốn trở thành một nguồn tài liệu hữu ích và đáng tin cậy cho mọi người, góp phần vào công cuộc bảo tồn và phát huy các giá trị truyền thống của dân tộc Việt Nam trong thời đại toàn cầu hóa.</p>
+        </section>
+
+        <!-- Thời kỳ Hồng Bàng -->
+        <section id="hongbang" class="section">
+            <div class="background-image" style="background-image: url('trongdong.png');"></div>
+            <h2>Thời kỳ Hồng Bàng (2879 TCN - 258 TCN)</h2>
+            <p>Thời kỳ Hồng Bàng là giai đoạn mở đầu của lịch sử Việt Nam, còn được biết đến với tên gọi thời đại các Vua Hùng. Theo truyền thuyết, nhà nước đầu tiên của người Việt được hình thành với tên gọi Văn Lang, do các vua Hùng trị vì. Thời kỳ này kéo dài từ năm 2879 TCN đến 258 TCN và được coi là giai đoạn khai sinh của nền văn minh Việt cổ, với nhiều yếu tố văn hóa và tập tục vẫn còn tồn tại đến ngày nay.</p>
+            <p>Truyền thuyết Lạc Long Quân - Âu Cơ là một trong những câu chuyện nổi tiếng nhất trong văn hóa Việt Nam, thể hiện nguồn gốc của người Việt. Theo truyền thuyết, Lạc Long Quân là con trai của thần Long Nữ và là vua của vùng biển, trong khi Âu Cơ là một nàng tiên sống trên núi. Họ kết duyên và sinh ra trăm người con, được gọi là "Bách Việt." Sau đó, Lạc Long Quân dẫn 50 người con về biển và Âu Cơ dẫn 50 người con lên núi, thể hiện sự phân chia vùng miền và sự đoàn kết trong cộng đồng người Việt.</p>
+            <p>Dưới sự trị vì của các vua Hùng, nhà nước Văn Lang ra đời và phát triển mạnh mẽ. Đây là một trong những nhà nước cổ đại đầu tiên tại Đông Nam Á, với trung tâm chính trị nằm ở vùng Phong Châu (nay là Phú Thọ). Văn Lang có hệ thống tổ chức xã hội và hành chính sơ khai, dựa vào các làng xã và bộ tộc. Người dân chủ yếu sống bằng nghề trồng lúa nước, đánh bắt cá, săn bắn và chăn nuôi, tạo nên một nền kinh tế nông nghiệp bền vững.</p>
+            <p>Văn hóa Đông Sơn là di sản nổi bật nhất của thời kỳ Hồng Bàng, đặc trưng bởi các trống đồng Đông Sơn – biểu tượng của nền văn minh Việt cổ. Trống đồng Đông Sơn không chỉ là nhạc cụ mà còn là biểu tượng của quyền lực và tín ngưỡng tôn giáo. Các hoa văn khắc trên trống đồng thể hiện hình ảnh sinh hoạt đời thường, lễ hội, săn bắt và chiến đấu, giúp chúng ta hiểu rõ hơn về cuộc sống và niềm tin của người Việt cổ.</p>
+        </section>
+
+        <!-- Thời kỳ Bắc thuộc -->
+        <section id="bacthuoc" class="section">
+            <div class="background-image" style="background-image: url('haibatruong.png');"></div>
+            <h2>Thời kỳ Bắc thuộc (111 TCN - 938)</h2>
+            <p>Thời kỳ Bắc thuộc kéo dài hơn một nghìn năm, bắt đầu từ năm 111 TCN khi nhà Hán xâm lược và sáp nhập Âu Lạc, cho đến năm 938 khi Ngô Quyền đánh bại quân Nam Hán trong trận Bạch Đằng. Trong giai đoạn này, Việt Nam chịu sự đô hộ và ảnh hưởng sâu sắc từ các triều đại phương Bắc như nhà Hán, Ngô, Tấn, Tùy, và Đường. Tuy nhiên, tinh thần yêu nước và khát khao độc lập luôn là động lực mạnh mẽ thúc đẩy nhiều cuộc khởi nghĩa.</p>
+            <p>Dù bị cai trị hà khắc, người Việt không ngừng nổi dậy đấu tranh. Một trong những cuộc khởi nghĩa đầu tiên và nổi bật là khởi nghĩa Hai Bà Trưng vào năm 40 SCN. Hai Bà Trưng, Trưng Trắc và Trưng Nhị, đã lãnh đạo quân dân đứng lên chống lại ách thống trị của nhà Hán. Sau khi giành thắng lợi, Hai Bà Trưng xưng vương và lập quốc, dù thời gian tự chủ này ngắn ngủi. Cuộc khởi nghĩa của Hai Bà Trưng trở thành biểu tượng bất khuất cho lòng yêu nước và quyền bình đẳng của phụ nữ trong xã hội Việt Nam.</p>
+            <p>Tiếp đó là cuộc khởi nghĩa của Bà Triệu vào năm 248. Bà Triệu, tên thật là Triệu Thị Trinh, nổi tiếng với câu nói: "Tôi muốn cưỡi cơn gió mạnh, đạp bằng sóng dữ, chém cá kình ở biển Đông, quét sạch bọn giặc Ngô, cứu dân ra khỏi nơi đắm đuối, chứ không chịu khom lưng làm tì thiếp người ta." Mặc dù cuộc khởi nghĩa thất bại, Bà Triệu được tôn vinh như một biểu tượng dũng cảm và kiên cường trong lịch sử.</p>
+            <p>Thời kỳ Bắc thuộc kết thúc vào năm 938 với chiến thắng vang dội của Ngô Quyền trong trận Bạch Đằng. Ngô Quyền đã dùng mưu kế cắm cọc gỗ dưới sông Bạch Đằng để chặn đứng quân Nam Hán, khiến quân địch bị tiêu diệt hoàn toàn. Chiến thắng Bạch Đằng không chỉ mang lại độc lập mà còn đặt nền móng cho sự phát triển của nhà nước Đại Việt sau này.</p>
+        </section>
+
+        <!-- Thời kỳ Đại Việt -->
+        <section id="daiviet" class="section">
+            <div class="background-image" style="background-image: url('lythaito.png');"></div>
+            <h2>Thời kỳ Đại Việt (939 - 1407)</h2>
+            <p>Thời kỳ Đại Việt là một thời kỳ phát triển mạnh mẽ trong lịch sử Việt Nam. Giai đoạn này bắt đầu khi Ngô Quyền đánh bại quân Nam Hán trong trận Bạch Đằng năm 938, đánh dấu sự chấm dứt thời kỳ Bắc thuộc và mở ra kỷ nguyên độc lập. Dưới các triều đại như Ngô, Đinh, Tiền Lê, Lý và Trần, Việt Nam không chỉ duy trì độc lập mà còn đạt được nhiều thành tựu trong kinh tế, quân sự, và văn hóa.</p>
+            <p>Thời kỳ Đại Việt đặc biệt nổi bật với các chiến thắng vang dội trước các đợt xâm lược của đế chế Nguyên Mông. Dưới sự lãnh đạo của nhà Trần và tướng Trần Hưng Đạo, quân dân Đại Việt đã đánh bại quân Nguyên Mông trong ba cuộc chiến vào các năm 1258, 1285, và 1288, đặc biệt là chiến thắng vang dội trong trận Bạch Đằng. Cuộc kháng chiến này thể hiện tinh thần đoàn kết và quyết tâm của dân tộc trong việc bảo vệ nền độc lập.</p>
+            <p>Trong thời kỳ này, Đại Việt cũng chứng kiến sự phát triển rực rỡ về văn hóa và giáo dục. Triều đại nhà Lý và Trần đã cho xây dựng Văn Miếu - Quốc Tử Giám, trường đại học đầu tiên của Việt Nam, nơi nhiều học giả lỗi lạc được đào tạo. Kiến trúc và nghệ thuật phát triển mạnh mẽ, với các công trình chùa chiền, đền tháp nổi tiếng như chùa Một Cột, chùa Bút Tháp, và chùa Dâu, đánh dấu thời kỳ thịnh vượng và tự cường của đất nước.</p>
+        </section>
+
+        <!-- Thời kỳ Pháp thuộc -->
+        <section id="phapthuoc" class="section">
+            <div class="background-image" style="background-image: url('phanboichau.png');"></div>
+            <h2>Thời kỳ Pháp thuộc (1858 - 1945)</h2>
+            <p>Thời kỳ Pháp thuộc bắt đầu từ năm 1858 khi thực dân Pháp tấn công Đà Nẵng, mở đầu cho cuộc chiến xâm lược Việt Nam. Trong giai đoạn này, người dân Việt Nam phải chịu nhiều bất công và sự cai trị hà khắc của chính quyền thực dân. Tuy nhiên, trong chính hoàn cảnh đó, nhiều phong trào yêu nước, kháng Pháp đã nổ ra với mục tiêu giành lại độc lập cho đất nước.</p>
+            <p>Phong trào yêu nước đã hình thành nhiều gương mặt lãnh đạo như Phan Bội Châu, người đã lãnh đạo phong trào Đông Du nhằm khuyến khích thanh niên Việt Nam sang Nhật Bản học tập để chuẩn bị cho cuộc đấu tranh giải phóng. Phan Chu Trinh với tư tưởng cải cách xã hội và chủ trương vận động dân chủ, cũng đóng góp to lớn trong việc nâng cao ý thức dân tộc. Trong giai đoạn cuối Pháp thuộc, sự xuất hiện của Nguyễn Ái Quốc, sau này là Hồ Chí Minh, đã tạo nên một làn sóng cách mạng với tư tưởng cộng sản và chủ nghĩa yêu nước mới.</p>
+            <p>Cách mạng tháng Tám năm 1945 do Việt Minh lãnh đạo đã thành công, kết thúc thời kỳ Pháp thuộc và đánh dấu một bước ngoặt lịch sử với việc thành lập nước Việt Nam Dân chủ Cộng hòa vào ngày 2 tháng 9 năm 1945.</p>
+        </section>
+
+        <!-- Thời kỳ hiện đại -->
+        <section id="hiendai" class="section">
+            <div class="background-image" style="background-image: url('quangtruong_ba_dinh.png');"></div>
+            <h2>Thời kỳ hiện đại (1945 - nay)</h2>
+            <p>Ngày 2 tháng 9 năm 1945, Chủ tịch Hồ Chí Minh đã đọc bản Tuyên ngôn Độc lập tại Quảng trường Ba Đình, chính thức thành lập nước Việt Nam Dân chủ Cộng hòa. Đây là bước ngoặt quan trọng, mở ra một kỷ nguyên mới cho dân tộc Việt Nam. Tuy nhiên, đất nước chưa kịp yên ổn thì phải tiếp tục đối mặt với các cuộc chiến tranh để bảo vệ nền độc lập mới giành được. Việt Nam phải trải qua hai cuộc kháng chiến chống Pháp và Mỹ, với chiến thắng Điện Biên Phủ năm 1954 và Giải phóng miền Nam, thống nhất đất nước vào năm 1975.</p>
+            <p>Sau khi chiến tranh kết thúc, Việt Nam bước vào giai đoạn tái thiết đất nước và khắc phục hậu quả chiến tranh. Đến năm 1986, Đảng Cộng sản Việt Nam khởi xướng chính sách Đổi mới, đưa đất nước tiến vào thời kỳ hội nhập và phát triển. Kể từ đó, nền kinh tế Việt Nam không ngừng tăng trưởng, với nhiều thành tựu đáng kể trong các lĩnh vực như giáo dục, y tế, công nghệ và hợp tác quốc tế.</p>
+        </section>
+
+        <!-- Văn hóa dân gian -->
+        <section id="vanchan" class="section">
+            <div class="background-image" style="background-image: url('lehoi.png');"></div>
+            <h2>Văn hóa dân gian và phong tục truyền thống</h2>
+            <p>Văn hóa dân gian Việt Nam là một phần quan trọng trong bản sắc dân tộc, bao gồm các phong tục, lễ hội và các trò chơi truyền thống như ô ăn quan, kéo co, đá gà. Đây là những hoạt động không chỉ mang tính giải trí mà còn truyền tải các giá trị về tinh thần đoàn kết và lòng yêu nước. Các phong tục như Tết Nguyên Đán, Tết Trung Thu, cúng giỗ tổ tiên cũng phản ánh sự gắn bó với gia đình và quê hương.</p>
+            <p>Ngoài ra, các lễ hội truyền thống như Lễ hội Đền Hùng, Lễ hội Chùa Hương, Lễ hội Gióng mang lại không gian để người dân tôn vinh các anh hùng dân tộc, cũng như truyền thống uống nước nhớ nguồn. Đây là những hoạt động văn hóa đặc sắc, góp phần bảo tồn bản sắc và tăng cường tinh thần đoàn kết cộng đồng.</p>
+        </section>
+
+        <!-- Ẩm thực truyền thống -->
+        <section id="amthuc" class="section">
+            <div class="background-image" style="background-image: url('banhchung_truyen_thong.png');"></div>
+            <h2>Ẩm thực truyền thống</h2>
+            <p>Ẩm thực Việt Nam nổi tiếng với sự phong phú và đa dạng, phản ánh nền văn hóa lâu đời của dân tộc. Các món ăn truyền thống như bánh chưng, bánh dày, phở, bún chả không chỉ là những món ngon mà còn mang trong mình ý nghĩa văn hóa sâu sắc. Bánh chưng, bánh dày tượng trưng cho trời và đất, thường được dâng lên trong dịp Tết Nguyên Đán, mang ý nghĩa tri ân tổ tiên và cầu mong một năm mới ấm no, hạnh phúc.</p>
+            <p>Các món phở, bún chả, nem rán cũng đã trở thành biểu tượng của ẩm thực Việt Nam, được bạn bè quốc tế yêu thích và vinh danh. Ẩm thực truyền thống Việt Nam không chỉ ngon miệng mà còn đảm bảo hài hòa giữa các yếu tố dinh dưỡng, đặc biệt là sự cân bằng giữa các loại gia vị và nguyên liệu tươi ngon. Những bữa cơm gia đình hay các món ăn truyền thống trong ngày lễ tết cũng là dịp để các thành viên trong gia đình cùng sum vầy, chia sẻ niềm vui, gìn giữ và truyền lại văn hóa qua nhiều thế hệ.</p>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Trường Đại học Bách Khoa, ĐHQG - HCM</p>
+        <p>Nhóm sinh viên: Nguyễn Hạo Thiên, Hoàng Văn Mệnh, Tạ Tuấn Khải, Phạm Lâm Tuấn Anh, Huỳnh Lê Nghi Quân</p>
+    </footer>
+</body>
+</html>

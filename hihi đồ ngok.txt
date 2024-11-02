@@ -1,0 +1,85 @@
+1. Danh sách hình ảnh cần chuẩn bị (ít nhất 5 hình mỗi mục):
+Trang chủ - Hồn Việt:
+
+Hình ảnh kỳ lân
+Hình ảnh rồng
+Hình ảnh phụng
+Hình ảnh bánh chưng, bánh dày
+Logo dự án (logo.png)
+Thời kỳ Hồng Bàng:
+
+Hình ảnh trống đồng Đông Sơn
+Hình tượng Lạc Long Quân và Âu Cơ
+Cảnh sinh hoạt làng quê
+Cảnh các vị vua Hùng
+Tranh minh họa truyền thuyết Lạc Long Quân và Âu Cơ
+Thời kỳ Bắc thuộc:
+
+Hình tượng Hai Bà Trưng
+Cảnh trận Bạch Đằng
+Tượng Bà Triệu
+Hình tượng Lý Bí và cuộc khởi nghĩa
+Cảnh người dân Việt Nam dưới sự đô hộ
+Thời kỳ Đại Việt:
+
+Hình tượng Lý Thái Tổ
+Cờ Đại Việt
+Cảnh chiến thắng Bạch Đằng
+Cảnh sinh hoạt cung đình thời Lý
+Tranh miêu tả quân đội Đại Việt
+Thời kỳ Pháp thuộc:
+
+Hình ảnh Phan Bội Châu, Phan Chu Trinh
+Hình ảnh Hồ Chí Minh
+Cảnh các cuộc biểu tình
+Hình ảnh cuộc sống dưới sự đô hộ của Pháp
+Cảnh các phong trào yêu nước
+Thời kỳ hiện đại:
+
+Quảng trường Ba Đình
+Lá cờ Việt Nam
+Cảnh lễ tuyên ngôn độc lập
+Hình ảnh chiến dịch Đổi Mới
+Hình ảnh các thành tựu của Việt Nam trong thời kỳ hiện đại
+Văn hóa dân gian và phong tục truyền thống:
+
+Hình ảnh trò chơi ô ăn quan, kéo co
+Cảnh lễ hội truyền thống
+Hình ảnh trồng lúa, sinh hoạt làng quê
+Cảnh đồng quê và sinh hoạt
+Hình ảnh học sinh mặc áo dài
+Ẩm thực truyền thống:
+
+Hình ảnh bánh chưng, bánh dày
+Hình ảnh phở, bún chả
+Hình ảnh các món ăn truyền thống trong ngày Tết
+Hình ảnh mâm cơm truyền thống
+Cảnh nấu ăn trong các dịp lễ hội
+
+2. Các tên file cho hình ảnh
+Tôi sẽ đặt tên file cho từng hình ảnh để bạn có thể tải xuống và lưu lại theo thứ tự. Các tên file mẫu sẽ như sau:
+
+Trang chủ:
+
+kylan.png, rong.png, phung.png, banchung.png, banhday.png, logo.png
+Thời kỳ Hồng Bàng:
+
+trongdong.png, laclongquan_auco.png, sinhhoat_langque.png, vuhung.png, truyenthuyet.png
+Thời kỳ Bắc thuộc:
+
+haibatruong.png, tranchien_bachdang.png, batruong.png, lybi.png, doho.png
+Thời kỳ Đại Việt:
+
+lythaito.png, codai_viet.png, chienthang_bachdang.png, cungdinh_ly.png, quandoi_dai_viet.png
+Thời kỳ Pháp thuộc:
+
+phanboichau.png, hochiminh.png, bieutinh.png, dohophap.png, phongtrao_yeu_nuoc.png
+Thời kỳ hiện đại:
+
+quangtruong_ba_dinh.png, covietnam.png, tuyengon.png, doimoi.png, thanh_tuu.png
+Văn hóa dân gian và phong tục truyền thống:
+
+oanquan.png, keoco.png, lehoi.png, dongque.png, hoc_sinh_aodai.png
+Ẩm thực truyền thống:
+
+banhchung_truyen_thong.png, pho.png, bunchatrad.png, mamcom_truyen_thong.png, nau_an_lehoi.png

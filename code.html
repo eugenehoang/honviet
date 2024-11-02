@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HỒN VIỆT - Website Lịch sử và Văn hóa Việt Nam</title>
+    <style>
+        /* Cấu hình màu sắc */
+        :root {
+            --dark-green: #13341E;
+            --fern-green: #4E7145;
+            --gamboge: #EB9C35;
+            --sinopia: #C4501B;
+            --sienna: #8A2B13;
+            --light-text: #F8F5E9;
+            --dark-text: #2B2C28;
+        }
+
+        /* Thiết lập cơ bản */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--dark-green);
+            color: var(--light-text);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            color: var(--light-text);
+            padding: 60px;
+        }
+
+        header h1 {
+            font-family: "Times New Roman", serif;
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-style: italic;
+            color: var(--sinopia);
+            margin-top: 10px;
+        }
+
+        /* Thanh điều hướng */
+        nav {
+            background-color: var(--fern-green);
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: var(--light-text);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            margin: 0 10px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: var(--gamboge);
+            color: var(--dark-text);
+            border-radius: 5px;
+        }
+
+        /* Nội dung chính */
+        .content {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            background-color: var(--sienna);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            position: relative;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-family: "Times New Roman", serif;
+            font-size: 2em;
+            color: var(--light-text);
+            margin-bottom: 10px;
+        }
+
+        .section img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .section p {
+            line-height: 1.6;
+            text-align: left;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--fern-green);
+            color: var(--light-text);
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="logo.png" alt="Logo Hồn Việt" width="150">
+        <h1>HỒN VIỆT</h1>
+        <p>"DÂN TA PHẢI BIẾT SỬ TA" - Chủ tịch Hồ Chí Minh</p>
+    </header>
+
+    <!-- Thanh điều hướng -->
+    <nav>
+        <a href="#home">Trang chủ</a>
+        <a href="#hongbang">Thời kỳ Hồng Bàng</a>
+        <a href="#bacthuoc">Thời kỳ Bắc thuộc</a>
+        <a href="#daiviet">Thời kỳ Đại Việt</a>
+        <a href="#phapthuoc">Thời kỳ Pháp thuộc</a>
+        <a href="#hiendai">Thời kỳ hiện đại</a>
+        <a href="#vanchan">Văn hóa dân gian</a>
+        <a href="#amthuc">Ẩm thực truyền thống</a>
+    </nav>
+
+    <!-- Nội dung chính -->
+    <div class="content">
+
+        <!-- Trang chủ -->
+        <section id="home" class="section">
+            <img src="kylan.png" alt="Kỳ Lân" />
+            <h2>Giới thiệu tổng quan</h2>
+            <p>Dự án xây dựng một website lịch sử và văn hóa Việt Nam là một phần trong sứ mệnh giáo dục cộng đồng về cội nguồn và giá trị của dân tộc...</p>
+            <!-- Nội dung đầy đủ của phần Trang chủ -->
+        </section>
+
+        <!-- Thời kỳ Hồng Bàng -->
+        <section id="hongbang" class="section">
+            <img src="trongdong.png" alt="Trống Đồng Đông Sơn" />
+            <h2>Thời kỳ Hồng Bàng (2879 TCN - 258 TCN)</h2>
+            <p>Thời kỳ Hồng Bàng là giai đoạn mở đầu của lịch sử Việt Nam, còn được biết đến với tên gọi thời đại các Vua Hùng...</p>
+            <!-- Nội dung đầy đủ của Thời kỳ Hồng Bàng -->
+        </section>
+
+        <!-- Thời kỳ Bắc thuộc -->
+        <section id="bacthuoc" class="section">
+            <img src="haibatruong.png" alt="Tượng Hai Bà Trưng" />
+            <h2>Thời kỳ Bắc thuộc (111 TCN - 938)</h2>
+            <p>Thời kỳ Bắc thuộc kéo dài hơn một nghìn năm...</p>
+            <!-- Nội dung đầy đủ của Thời kỳ Bắc thuộc -->
+        </section>
+
+        <!-- Các mục tiếp theo -->
+        <!-- Thêm nội dung và hình ảnh cho các mục Thời kỳ Đại Việt, Pháp thuộc, Thời kỳ hiện đại, Văn hóa dân gian, và Ẩm thực truyền thống như trên -->
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Trường Đại học Bách Khoa, ĐHQG - HCM</p>
+        <p>Nhóm sinh viên: Nguyễn Hạo Thiên, Hoàng Văn Mệnh, Tạ Tuấn Khải, Phạm Lâm Tuấn Anh, Huỳnh Lê Nghi Quân</p>
+    </footer>
+</body>
+</html>
